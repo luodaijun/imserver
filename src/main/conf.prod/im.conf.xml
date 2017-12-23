@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<im>
+    <server>
+        <port>80</port>
+
+        <sslPort>-1</sslPort>
+
+        <!--单位 秒-->
+        <keepalived_timeout>60</keepalived_timeout>
+
+
+        <!--I/O线程数量-->
+        <ioThread>20</ioThread>
+
+        <!--I/O线程数量-->
+        <workThread>200</workThread>
+
+        <!--绑定IP-->
+        <bindIp>0.0.0.0</bindIp>
+
+        <!--是否使用Native实现，提高性能,只支持Linux系统-->
+        <useNativeTransports>true</useNativeTransports>
+    </server>
+</im>
