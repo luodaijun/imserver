@@ -26,7 +26,7 @@ public class IMConfig {
                 logFile = new File(System.getProperty("user.dir"), "src/main/conf/im.conf.xml");
             }
 
-            System.err.println("load gateway config from file " + logFile.getCanonicalPath());
+            System.err.println("load im config from file " + logFile.getCanonicalPath());
 
             configuration.load(logFile);
         } catch (Exception e) {
